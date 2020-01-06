@@ -21,7 +21,7 @@ script:
   - python-codacy-coverage -r coverage.xml
 deploy:
   provider: heroku
-  app: 
+  app: heroku-meet-travis
   strategy: git
   api_key:
-    secure:
+    secure: qXjCxLfGvBpsLoyjNMzaDl/cqkPYUixaloGekebURH62gxoy2Vp2mH0eyYojBgZqS/pQgpWx2ICw7oeuDCuojlDZ3nh4BSRaMowbrE5FsWl+EIAHtCg5ZHML9pMgPJofaXsmGnXsFVL+5tT2idD1ifLXRjIbvrnZxnYUU5lewq0ak9r/hXzkiwJCtujPeoH1ws2F2uhiU67l9Vnf0IE8yTAZvyIrVxcKE6Qx81sbjdg0HcwznHcgkfmyWXZL03dq+o7+jpU3mb8j7TJOdUfMvOPqZBb57uT+vbegE3u/MXyTiuX8qfkFllhuvOHJkWdEZlGbZsx2kNssihQjf/y8ezSOWJAcakmCLXDSpUX7xZCURSuv9lhD/yzTmS2J9W5uWzZX6efnP3KwWufDm8ww5IElw4zmAVmqhtVTdqJu3pcFmLWnqMhL8nEKL7QdWIP5vsXRiu2wZahs9UGIuFhxLEHSvoWABCxT0bXO/UARMmkuSBWYlYwkuWO7bIUbeirSCyLUt2EWnYbLVe81/ZlcJrnP1aChk7O/WZJrIn+WURPR6F2EHdWnsTBg4lHXLlZQcSF8CyIT3t4uanA1mFpVk5sDLfxtE6pRE7QlmFeDfNN3ZaTXhQg9wGlc+sH5LGWY0LjM2ZWmFYyGv06Zcyn6v4PmTpUBa5dSs18dOCLl9YM=
